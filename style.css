@@ -1,0 +1,89 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #Red;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #Bluw;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Home Page */
+.intro {
+    text-align: center;
+    padding: 40px;
+}
+
+/* Resume and Bio-data Pages */
+.resume-content, .biodata-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #Red;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-content h2, .biodata-content h2 {
+    text-align: center;
+}
+
+.resume-content h4, .biodata-content h3 {
+    margin-top: 20px;
+    color: #333;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    nav ul {
+        text-align: center;
+    }
+
+    .resume-content, .biodata-content {
+        padding: 15px;
+    }
+}
